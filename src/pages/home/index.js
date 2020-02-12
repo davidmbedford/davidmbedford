@@ -3,14 +3,20 @@ import './style.css';
 
 function Home() {
     return(
+        <div className="col s12 l9">
         <div className="App">
             <div className="App-header">
                 <div className="container">
-                    <h1>This is the Home Page </h1>
+                    
+                    
+
+
+
                 </div>        
 
 
             </div>
+        </div>
         </div>
     )
 };

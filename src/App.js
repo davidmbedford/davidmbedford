@@ -1,6 +1,6 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Row } from 'reactstrap';
 import './App.css';
 
 import Home from './pages/home/index.js';
@@ -13,6 +13,7 @@ function App() {
   return (
     <>
     <Router>
+    <Row>
     <Navigation /> 
       <Switch>
         <Route exact path='/' component={Home}/>
@@ -20,6 +21,7 @@ function App() {
         <Route exact path='/skills' component={Skills}/>
         <Route exact path='/contact' component={Contact}/>
       </Switch>
+    </Row>
     </Router>
     </>
   );
