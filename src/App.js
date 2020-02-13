@@ -8,6 +8,7 @@ import Portfolio from './pages/portfolio/index.js';
 import Skills from './pages/skills/index.js';
 import Contact from './pages/contact/index.js';
 import Navigation from './components/navigation/index.js';
+import Footer from './components/footer/index.js';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route exact path='/contact' component={Contact}/>
       </Switch>
     </Row>
+    <Footer />
     </Router>
     </>
   );

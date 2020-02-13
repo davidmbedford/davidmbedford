@@ -9,12 +9,13 @@ class Navigation extends Component {
           var elems = document.querySelectorAll('.sidenav');
           var instances = M.Sidenav.init(elems, {});
         });
-      }
+        }
 
     render () {
     return(
         <>
         <div className="col s12 l3">
+
         <nav>
             <div className="nav-wrapper">
                 <a href="https://www.linkedin.com/in/david-bedford-027b99190/" className="brand-logo">dmb</a>
@@ -37,11 +38,10 @@ class Navigation extends Component {
             <li><Link to='/contact'>Contact</Link></li>
         </ul>
         
-</div>
-
+        </div>
         </>
-    )
-}
+        )
+    }
 }
 
 export default Navigation;
