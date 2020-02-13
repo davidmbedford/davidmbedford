@@ -44,3 +44,7 @@
 .no-pad {
   padding: 0 !important;
 }
+
+a { 
+  color: inherit; 
+} 

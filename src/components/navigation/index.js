@@ -16,12 +16,14 @@ class Navigation extends Component {
             <>
             <div className="col s12 l3 no-pad">
 
-            <nav>
+            <div>
                 <div className="nav-wrapper">
-                    <a href="https://www.linkedin.com/in/david-bedford-027b99190/" className="brand-logo">dmb</a>
-                    <a data-target="slide-out" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+                    <h2 className="right-align">
+                    <a href="https://www.linkedin.com/in/david-bedford-027b99190/" className="brand-logo">david michael bedford</a>
+                    </h2>
+                    <a data-target="slide-out" className="sidenav-trigger hide-on-med-and-up"><i className="material-icons">menu</i></a>
                     <div className="container">
-                        <ul class="right hide-on-med-and-down">
+                        <ul class="right-align hide-on-med-and-down">
                             <li><Link to='/'>Home</Link></li>
                             <li><Link to='/portfolio'>Portfolio</Link></li>
                             <li><Link to='/skills'>Skills</Link></li>
@@ -29,7 +31,7 @@ class Navigation extends Component {
                         </ul>
                     </div> 
                 </div>
-            </nav>
+            </div>
 
             <ul className="sidenav" id="slide-out">
                 <li><Link to='/'>Home</Link></li>
@@ -39,6 +41,7 @@ class Navigation extends Component {
             </ul>
             
             </div>
+            
             </>
             )
     }
