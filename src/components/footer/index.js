@@ -3,7 +3,7 @@ import './style.css';
 
 function Footer() {
   return (
-    <footer className="page-footer" id="footertop">
+    <footer className="page-footer no-pad" id="footertop">
       <div className="footer-copyright" id="footerbottom">
         <div className="container">
           this site designed by <span><a href="https://davidmbedford.github.io">davidmbedford</a></span>
