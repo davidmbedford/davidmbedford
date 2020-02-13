@@ -4,6 +4,7 @@ import './style.css';
 function Portfolio() {
     return(
         <>
+          <div className="col s12 l9">
             <div className="section" id="projects-box">
                 <div className="container" id="portfolio-sec">
 
@@ -191,7 +192,7 @@ function Portfolio() {
 
     </div>
     </div>
-  
+    </div>
       
 
 

@@ -7,14 +7,8 @@ function Home() {
         <div className="App">
             <div className="App-header">
                 <div className="container">
-                    
-                    
-
-
-
+                    <h1>Welcome Home</h1>
                 </div>        
-
-
             </div>
         </div>
         </div>
