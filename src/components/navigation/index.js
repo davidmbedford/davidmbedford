@@ -19,10 +19,10 @@ class Navigation extends Component {
             <div>
                 <div className="nav-wrapper">
                     <h2 className="right-align">
-                    <a href="https://www.linkedin.com/in/david-bedford-027b99190/" className="brand-logo">david michael bedford</a>
+                    <a href="https://www.linkedin.com/in/david-bedford-027b99190/">david michael bedford</a>
                     </h2>
                     <a data-target="slide-out" className="sidenav-trigger hide-on-med-and-up"><i className="material-icons">menu</i></a>
-                    <div className="container">
+                    <div className="nav-links">
                         <ul class="right-align hide-on-med-and-down">
                             <li><Link to='/'>Home</Link></li>
                             <li><Link to='/portfolio'>Portfolio</Link></li>
