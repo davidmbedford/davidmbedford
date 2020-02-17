@@ -8,13 +8,55 @@ function Portfolio() {
         <div className="App">
           <div className="App-header">
 
-
-            <div className="container" id="portfolio-sec">
+            <div className="container">
 
               <div className="row">
                 <div className="col s12">
                   <h3 className="center">Portfolio</h3>
                 </div>
+              </div>
+
+              <div className="row">
+                <div className="col s12 l6">
+                  <h5 className="right-align">ZigZag</h5>
+                  <div className="bard">
+                    <div className="bard-image">
+                    <img src="https://scx1.b-cdn.net/csz/news/800/2018/europeslostf.jpg" />
+                    </div>
+                      <div className="bard-content">
+                        <p>Are you looking for a new career path? ZigZag contains a personality survey to help
+                          determine the best course for you! We also have a vast database
+                          of related academic programs.</p>
+                        <br />
+                        <p>Main Tech: React, ES6, node.js, Sql, Express, APIs, HTML/CSS (Materialize)</p>
+                      </div>
+                      <div className="bard-action">
+                        <a href="https://github.com/asmith7531/team1project3">Code</a>
+                        <a href="https://radiant-wildwood-53087.herokuapp.com">Site</a>
+                      </div>
+                  </div>
+                </div>
+
+                <div className="col s12 l6">
+                  <h5 className="header">Star Wars: Force Clicker</h5>
+                  <div className="card">
+                    <div className="card-image">
+                      <img src="https://scx1.b-cdn.net/csz/news/800/2018/europeslostf.jpg" />
+                    </div>
+                    <div className="card-stacked">
+                      <div className="card-content">
+                        <p>Test you connection to the force and click on all of the characters without repeating! This app was built to demonstrate dynamic changes with React.JS</p>
+                        <br />
+                        <p>Main Tech: React, ES6, HTML/CSS (BootStrap)</p>
+                      </div>
+                      <div className="card-action">
+                        <a href="https://github.com/davidmbedford/clickergame">Code</a>
+                        <a href="https://clickergame-rubc.herokuapp.com/">Site</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
 
               <div className="row">
@@ -61,6 +103,7 @@ function Portfolio() {
                 </div>
 
               </div>
+
 
               <div className="row">
                 <div className="col s12 l6">
