@@ -24,10 +24,10 @@ class Navigation extends Component {
                     <a data-target="slide-out" className="sidenav-trigger hide-on-med-and-up"><i className="material-icons">menu</i></a>
                     <div className="nav-links">
                         <ul class="right-align hide-on-med-and-down">
-                            <li><Link to='/'>Home</Link></li>
-                            <li><Link to='/portfolio'>Portfolio</Link></li>
-                            <li><Link to='/skills'>Skills</Link></li>
-                            <li><Link to='/contact'>Contact</Link></li>
+                            <li><Link className="waves-effect waves-light btn-flat" to='/'>Home</Link></li>
+                            <li><Link className="waves-effect waves-light btn-flat" to='/portfolio'>Portfolio</Link></li>
+                            <li><Link className="waves-effect waves-light btn-flat" to='/skills'>Skills</Link></li>
+                            <li><Link className="waves-effect waves-light btn-flat" to='/contact'>Contact</Link></li>
                         </ul>
                     </div> 
                 </div>
@@ -41,7 +41,6 @@ class Navigation extends Component {
             </ul>
             
             </div>
-            
             </>
             )
     }
