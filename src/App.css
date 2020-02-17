@@ -1,3 +1,5 @@
+/* Create React App CSS I kept for css relevant to multiple components/screens */
+
 .App {
   text-align: center;
 }
@@ -36,3 +38,13 @@
     transform: rotate(360deg);
   }
 }
+
+/* Universal CSS I wrote */
+
+.no-pad {
+  padding: 0 !important;
+}
+
+a { 
+  color: inherit; 
+} 

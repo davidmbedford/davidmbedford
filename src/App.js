@@ -14,7 +14,7 @@ function App() {
   return (
     <>
     <Router>
-    <Row>
+    <Row style={{ margin: 0 }}>
     <Navigation /> 
       <Switch>
         <Route exact path='/' component={Home}/>

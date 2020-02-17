@@ -12,35 +12,37 @@ class Navigation extends Component {
         }
 
     render () {
-    return(
-        <>
-        <div className="col s12 l3">
+        return(
+            <>
+            <div className="col s12 l3 no-pad">
 
-        <nav>
-            <div className="nav-wrapper">
-                <a href="https://www.linkedin.com/in/david-bedford-027b99190/" className="brand-logo">dmb</a>
-                <a data-target="slide-out" className="sidenav-trigger"><i className="material-icons">menu</i></a>
-                <div className="container">
-                    <ul class="right hide-on-med-and-down">
-                        <li><Link to='/'>Home</Link></li>
-                        <li><Link to='/portfolio'>Portfolio</Link></li>
-                        <li><Link to='/skills'>Skills</Link></li>
-                        <li><Link to='/contact'>Contact</Link></li>
-                    </ul>
-                </div> 
+            <div>
+                <div className="nav-wrapper">
+                    <h2 className="right-align">
+                    <a href="https://www.linkedin.com/in/david-bedford-027b99190/" target="_blank">david michael bedford</a>
+                    </h2>
+                    <a data-target="slide-out" className="sidenav-trigger hide-on-med-and-up"><i className="material-icons">menu</i></a>
+                    <div>
+                        <ul class="right-align hide-on-med-and-down">
+                            <li><Link className="waves-effect waves-light btn-flat nav-links" to='/'>Home</Link></li>
+                            <li><Link className="waves-effect waves-light btn-flat nav-links" to='/portfolio'>Portfolio</Link></li>
+                            <li><Link className="waves-effect waves-light btn-flat nav-links" to='/skills'>Skills</Link></li>
+                            <li><Link className="waves-effect waves-light btn-flat nav-links" to='/contact'>Contact</Link></li>
+                        </ul>
+                    </div> 
+                </div>
             </div>
-        </nav>
 
-        <ul className="sidenav" id="slide-out">
-            <li><Link to='/'>Home</Link></li>
-            <li><Link to='/portfolio'>Portfolio</Link></li>
-            <li><Link to='/skills'>Skills</Link></li>
-            <li><Link to='/contact'>Contact</Link></li>
-        </ul>
-        
-        </div>
-        </>
-        )
+            <ul className="sidenav" id="slide-out">
+                <li><Link to='/'>Home</Link></li>
+                <li><Link to='/portfolio'>Portfolio</Link></li>
+                <li><Link to='/skills'>Skills</Link></li>
+                <li><Link to='/contact'>Contact</Link></li>
+            </ul>
+            
+            </div>
+            </>
+            )
     }
 }
 

@@ -1,0 +1,15 @@
+h2 {
+    color: rgb(213, 216, 243);
+    font-family: 'Ultra', serif;
+    font-size: 3vw;
+    padding-right: 5px;
+    padding-top: 20vh;
+  }
+
+  .nav-links {
+    font-size: 1vw;
+    padding-bottom: 1vh;
+    padding-right: 5px;
+    font-weight: 'bold';
+    font-family: 'Francois One', sans-serif;
+  }
