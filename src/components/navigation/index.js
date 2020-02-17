@@ -22,12 +22,12 @@ class Navigation extends Component {
                     <a href="https://www.linkedin.com/in/david-bedford-027b99190/" target="_blank">david michael bedford</a>
                     </h2>
                     <a data-target="slide-out" className="sidenav-trigger hide-on-med-and-up"><i className="material-icons">menu</i></a>
-                    <div className="nav-links">
+                    <div>
                         <ul class="right-align hide-on-med-and-down">
-                            <li><Link className="waves-effect waves-light btn-flat" to='/'>Home</Link></li>
-                            <li><Link className="waves-effect waves-light btn-flat" to='/portfolio'>Portfolio</Link></li>
-                            <li><Link className="waves-effect waves-light btn-flat" to='/skills'>Skills</Link></li>
-                            <li><Link className="waves-effect waves-light btn-flat" to='/contact'>Contact</Link></li>
+                            <li><Link className="waves-effect waves-light btn-flat nav-links" to='/'>Home</Link></li>
+                            <li><Link className="waves-effect waves-light btn-flat nav-links" to='/portfolio'>Portfolio</Link></li>
+                            <li><Link className="waves-effect waves-light btn-flat nav-links" to='/skills'>Skills</Link></li>
+                            <li><Link className="waves-effect waves-light btn-flat nav-links" to='/contact'>Contact</Link></li>
                         </ul>
                     </div> 
                 </div>
