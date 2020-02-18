@@ -13,3 +13,13 @@ h2 {
     font-weight: 'bold';
     font-family: 'Francois One', sans-serif;
   }
+
+  /* from bs */
+@supports ((position:-webkit-sticky) or (position:sticky)) {
+  .sticky-top {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      z-index: 1020
+  }
+}

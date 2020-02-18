@@ -22,7 +22,7 @@ class Navigation extends Component {
                         <a href="https://www.linkedin.com/in/davidmbedford/" target="_blank">david michael bedford</a>
                         </h2>
                         <a data-target="slide-out" className="sidenav-trigger hide-on-med-and-up"><i className="material-icons">menu</i></a>
-                        <div>
+                        <div className="sticky-top">
                             <ul class="right-align hide-on-med-and-down">
                                 <li><Link className="waves-effect waves-light btn-flat nav-links" to='/'>Home</Link></li>
                                 <li><Link className="waves-effect waves-light btn-flat nav-links" to='/portfolio'>Portfolio</Link></li>
