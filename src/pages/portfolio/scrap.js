@@ -1,5 +1,5 @@
-import React from 'react';
-import './style.css';
+// import React from 'react';
+// import './style.css';
 
 function Portfolio() {
   return (
@@ -185,4 +185,4 @@ function Portfolio() {
   )
 };
 
-export default Portfolio;
+// export default Portfolio;

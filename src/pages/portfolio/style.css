@@ -23,7 +23,6 @@ p {
 
 .bard .bard-image img {
   display: block;
-  border-radius: 5px !important;
   position: relative;
   left: 0;
   right: 0;
@@ -44,22 +43,21 @@ p {
 
 .bard .bard-content {
   padding: 24px;
-  border-radius: 0 0 2px 2px;
 }
 
 .bard .bard-content p {
   margin: 0;
 }
 
-.bard .bard-content .bard-title {
+/* .bard .bard-content .bard-title {
   display: block;
   line-height: 32px;
   margin-bottom: 8px;
-}
+} */
 
-.bard .bard-content .bard-title i {
+/* .bard .bard-content .bard-title i {
   line-height: 32px;
-}
+} */
 
 .bard .bard-action {
   background-color: inherit;
@@ -68,6 +66,7 @@ p {
   padding: 16px 24px;
   color: #ffab40;
   font-weight: bold;
+  /* border-radius: 0 0 2px 2px; */
 }
 
 .bard .bard-action a {
@@ -81,6 +80,6 @@ p {
   color: red;
 }
 
-/* .bard .bard-action:last-child {
+.bard .bard-action:last-child {
   border-radius: 0 0 2px 2px;
-} */
+}
