@@ -18,10 +18,10 @@ function Portfolio() {
 
               <div className="row">
                 <div className="col s12 l6">
-                  <h5 className="right-align">ZigZag</h5>
                   <div className="bard">
                     <div className="bard-image">
                     <img src="https://scx1.b-cdn.net/csz/news/800/2018/europeslostf.jpg" />
+                    <span class="bard-title">ZigZag</span>
                     </div>
                       <div className="bard-content">
                         <p>Are you looking for a new career path? ZigZag contains a personality survey to help
@@ -38,10 +38,10 @@ function Portfolio() {
                 </div>
 
                 <div className="col s12 l6">
-                  <h5 className="right-align">Star Wars: Force Clicker</h5>
                   <div className="bard">
                     <div className="bard-image">
                     <img src="https://scx1.b-cdn.net/csz/news/800/2018/europeslostf.jpg" />
+                    <span class="bard-title">Star Wars: Force Clicker</span>
                     </div>
                       <div className="bard-content">
                       <p>Test you connection to the force and click on all of the characters without repeating! This app was built to demonstrate dynamic changes with React.JS</p>
@@ -59,10 +59,10 @@ function Portfolio() {
 
               <div className="row">
                 <div className="col s12 l6">
-                  <h5 className="right-align">ShowSpotter</h5>
                   <div className="bard">
                     <div className="bard-image">
                     <img src="https://scx1.b-cdn.net/csz/news/800/2018/europeslostf.jpg" />
+                    <span class="bard-title">ShowSpotter</span>
                     </div>
                       <div className="bard-content">
                         <p>Enables users to find fun events near them! You can search for concerts, fests and more in your area. Find tickets, and directions via our app, and create a profile to save information.</p>
@@ -77,10 +77,10 @@ function Portfolio() {
                 </div>
 
                 <div className="col s12 l6">
-                  <h5 className="right-align">Blitzkrieg</h5>
                   <div className="bard">
                     <div className="bard-image">
                     <img src="https://scx1.b-cdn.net/csz/news/800/2018/europeslostf.jpg" />
+                    <span class="bard-title">Blitzkreig</span>
                     </div>
                       <div className="bard-content">
                         <p>An all-in-one productivity app: Blitz enables you to start your day with a bang, Choose between various widgets, such as traffic reports, weather, and the news, to maximize your morning!</p>
@@ -99,10 +99,10 @@ function Portfolio() {
 
               <div className="row">
                 <div className="col s12 l6">
-                  <h5 className="right-align">Bamazon</h5>
                   <div className="bard">
                     <div className="bard-image">
                     <img src="https://scx1.b-cdn.net/csz/news/800/2018/europeslostf.jpg" />
+                    <span class="bard-title">Bamazon</span>
                     </div>
                       <div className="bard-content">
                         <p>A digital storefront designed for your command line interface! There is a client, and manager-facing interface for this app. Customers may view inventory and purchase items; managers can review, stock and add new items.</p>
@@ -117,10 +117,10 @@ function Portfolio() {
                 </div>
 
                 <div className="col s12 l6">
-                  <h5 className="right-align">Live Schedule</h5>
                   <div className="bard">
                     <div className="bard-image">
                     <img src="https://scx1.b-cdn.net/csz/news/800/2018/europeslostf.jpg" />
+                    <span class="bard-title">Live Schedule</span>
                     </div>
                       <div className="bard-content">
                         <p>This utilizes Firebase to create a live-updating schedule application. This current version is geared towards Train conductors, but the application can be refactored for anyone in need of coordinating a steady routine.</p>
@@ -136,14 +136,12 @@ function Portfolio() {
 
               </div>
 
-
-
               <div className="row">
                 <div className="col s12 l6">
-                  <h5 className="right-align">Friend Finder</h5>
                   <div className="bard">
                     <div className="bard-image">
                     <img src="https://scx1.b-cdn.net/csz/news/800/2018/europeslostf.jpg" />
+                    <span class="bard-title">Friend Finder</span>
                     </div>
                       <div className="bard-content">
                         <p>This app allows users to take a survey and find like-minded people in their area to hang out with! This app is meant to demonstrate MySql API-routing and Handlebars via node.</p>
@@ -158,10 +156,10 @@ function Portfolio() {
                 </div>
 
                 <div className="col s12 l6">
-                  <h5 className="right-align">Gif Exploder</h5>
                   <div className="bard">
                     <div className="bard-image">
                     <img src="https://scx1.b-cdn.net/csz/news/800/2018/europeslostf.jpg" />
+                    <span class="bard-title">Gif Exploder</span>
                     </div>
                       <div className="bard-content">
                         <p>A jQuery-based Gif engine that utilizes the Giphy API. Users can add buttons to the header and use them to search for gifs of any sort based on what's trending.</p>

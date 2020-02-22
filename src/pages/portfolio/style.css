@@ -43,6 +43,8 @@ h5 {
   left: 0;
   max-width: 100%;
   padding: 24px;
+  font-family: 'Ultra', serif;
+  font-size: 1.2rem !important;
 }
 
 .bard .bard-content {
