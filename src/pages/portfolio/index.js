@@ -31,8 +31,8 @@ function Portfolio() {
                         <p>Main Tech: React, ES6, node.js, Sql, Express, APIs, HTML/CSS (Materialize)</p>
                       </div>
                       <div className="bard-action">
-                        <a href="https://github.com/asmith7531/team1project3">Code</a>
-                        <a href="https://radiant-wildwood-53087.herokuapp.com">Site</a>
+                        <a href="https://github.com/asmith7531/team1project3" target="_blank">Code</a>
+                        <a href="https://radiant-wildwood-53087.herokuapp.com" target="_blank">Site</a>
                       </div>
                   </div>
                 </div>
@@ -49,8 +49,8 @@ function Portfolio() {
                         <p>Main Tech: React, ES6, HTML/CSS (BootStrap)</p>
                       </div>
                       <div className="bard-action">
-                        <a href="https://github.com/davidmbedford/clickergame">Code</a>
-                        <a href="https://clickergame-rubc.herokuapp.com/">Site</a>
+                        <a href="https://github.com/davidmbedford/clickergame" target="_blank">Code</a>
+                        <a href="https://clickergame-rubc.herokuapp.com/" target="_blank">Site</a>
                       </div>
                   </div>
                 </div>
@@ -70,8 +70,8 @@ function Portfolio() {
                         <p>Main Tech: JavaScript, jQuery, various APIs, Firebase, HTML/CSS (Bootstrap)</p>
                       </div>
                       <div className="bard-action">
-                        <a href="https://github.com/Parker-Tech/project_one_boiler"><span className="card-link">Code</span></a>
-                        <a href="https://show-spotter.herokuapp.com/"><span className="card-link">Site</span></a>
+                        <a href="https://github.com/Parker-Tech/project_one_boiler" target="_blank">Code</a>
+                        <a href="https://show-spotter.herokuapp.com/" target="_blank">Site</a>
                       </div>
                   </div>
                 </div>
@@ -88,8 +88,8 @@ function Portfolio() {
                         <p>Main Tech: JavaScript, node.js, jQuery, Sql, Handlebars, Express, various APIs, HTML/CSS (Bootstrap)</p>
                       </div>
                       <div className="bard-action">
-                        <a href="https://github.com/rachaelbelle/blitzkreig"><span className="card-link">Code</span></a>
-                        <a href="https://blitzkreigg.herokuapp.com/"><span className="card-link">Site</span></a>
+                        <a href="https://github.com/rachaelbelle/blitzkreig" target="_blank">Code</a>
+                        <a href="https://blitzkreigg.herokuapp.com/" target="_blank">Site</a>
                       </div>
                   </div>
                 </div>
@@ -110,7 +110,7 @@ function Portfolio() {
                         <p>Main Tech: node.js, jQuery, Inquirer, bash</p>
                       </div>
                       <div className="bard-action">
-                        <a href="https://github.com/davidmbedford/bamazon-unit12"><span className="card-link">Code</span></a>
+                        <a href="https://github.com/davidmbedford/bamazon-unit12" target="_blank">Code</a>
                         <a href="#"><span className="card-link">Clone it!</span></a>
                       </div>
                   </div>
@@ -128,8 +128,8 @@ function Portfolio() {
                         <p>Tech: Firebase, JS, jQuery, HTML/CSS (Bootstrap)</p>
                       </div>
                       <div className="bard-action">
-                        <a href="https://github.com/davidmbedford/LiveSchedule"><span className="card-link">Code</span></a>
-                        <a href="https://davidmbedford.github.io/LiveSchedule/"><span className="card-link">Site</span></a>
+                        <a href="https://github.com/davidmbedford/LiveSchedule" target="_blank">Code</a>
+                        <a href="https://davidmbedford.github.io/LiveSchedule/" target="_blank">Site</a>
                       </div>
                   </div>
                 </div>
@@ -151,8 +151,8 @@ function Portfolio() {
                         <p>Main Tech: JS, jQuery, MySql, Handlebars, HTML/CSS (Materialize)</p>
                       </div>
                       <div className="bard-action">
-                        <a href="https://github.com/davidmbedford/FriendFinder"><span className="card-link">Code</span></a>
-                        <a href="https://friend-finderxrubc.herokuapp.com/home"><span className="card-link">Site</span></a>
+                        <a href="https://github.com/davidmbedford/FriendFinder" target="_blank">Code</a>
+                        <a href="https://friend-finderxrubc.herokuapp.com/home" target="_blank">Site</a>
                       </div>
                   </div>
                 </div>
@@ -169,8 +169,8 @@ function Portfolio() {
                         <p>Tech: JavaScript, jQuery, HTML, CSS</p>
                       </div>
                       <div className="bard-action">
-                        <a href="https://github.com/davidmbedford/Unit-6-GifTastic"><span className="card-link">Code</span></a>
-                        <a href="https://davidmbedford.github.io/Unit-6-GifTastic/"><span className="card-link">Site</span></a>
+                        <a href="https://github.com/davidmbedford/Unit-6-GifTastic" target="_blank">Code</a>
+                        <a href="https://davidmbedford.github.io/Unit-6-GifTastic/" target="_blank">Site</a>
                       </div>
                   </div>
                 </div>
