@@ -49,6 +49,8 @@ a {
   color: inherit; 
 } 
 
-h3 {
-  font-weight: 900;
+h3,
+h5 {
+  font-family: 'Ultra', serif;
 }
+
