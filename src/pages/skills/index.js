@@ -6,7 +6,7 @@ function Skills() {
     <div className="col s12 l9 no-pad">
       <div className="App">
         <div className="App-header">
-          <div class="container skillsBox" >
+          <div class="container backBox" >
 
             <div class="row">
               <div class="col s12">
