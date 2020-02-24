@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import './style.css';
-
 import Particles from 'react-particles-js';
 
 class Navigation extends Component {

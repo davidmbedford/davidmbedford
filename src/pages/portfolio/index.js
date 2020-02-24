@@ -1,6 +1,16 @@
 import React from 'react';
 import './style.css';
 
+import zigZag from '../../images/zigZagcrop.png';
+import swfc from '../../images/SWFC.png';
+import showspot from '../../images/S.png';
+import blitz from '../../images/blitz.png';
+import bamazon from '../../images/bamazon.png';
+import liveschedule from '../../images/liveschedule.png';
+import friend from '../../images/friendfinder.png';
+import gifexploder from '../../images/gifexploder.png';
+
+
 function Portfolio() {
   return (
     <>
@@ -20,7 +30,7 @@ function Portfolio() {
                 <div className="col s12 l6">
                   <div className="bard">
                     <div className="bard-image">
-                      <img src="https://scx1.b-cdn.net/csz/news/800/2018/europeslostf.jpg" />
+                      <img src={zigZag} />
                       <span class="bard-title">ZigZag</span>
                     </div>
                     <div className="bard-content">
@@ -40,7 +50,7 @@ function Portfolio() {
                 <div className="col s12 l6">
                   <div className="bard">
                     <div className="bard-image">
-                      <img src="https://scx1.b-cdn.net/csz/news/800/2018/europeslostf.jpg" />
+                      <img src={swfc} />
                       <span class="bard-title">Star Wars: Force Clicker</span>
                     </div>
                     <div className="bard-content">
@@ -61,7 +71,7 @@ function Portfolio() {
                 <div className="col s12 l6">
                   <div className="bard">
                     <div className="bard-image">
-                      <img src="https://scx1.b-cdn.net/csz/news/800/2018/europeslostf.jpg" />
+                      <img src={showspot} />
                       <span class="bard-title">ShowSpotter</span>
                     </div>
                     <div className="bard-content">
@@ -79,7 +89,7 @@ function Portfolio() {
                 <div className="col s12 l6">
                   <div className="bard">
                     <div className="bard-image">
-                      <img src="https://scx1.b-cdn.net/csz/news/800/2018/europeslostf.jpg" />
+                      <img src={blitz} />
                       <span class="bard-title">Blitzkreig</span>
                     </div>
                     <div className="bard-content">
@@ -101,7 +111,7 @@ function Portfolio() {
                 <div className="col s12 l6">
                   <div className="bard">
                     <div className="bard-image">
-                      <img src="https://scx1.b-cdn.net/csz/news/800/2018/europeslostf.jpg" />
+                      <img src={bamazon} />
                       <span class="bard-title">Bamazon</span>
                     </div>
                     <div className="bard-content">
@@ -119,7 +129,7 @@ function Portfolio() {
                 <div className="col s12 l6">
                   <div className="bard">
                     <div className="bard-image">
-                      <img src="https://scx1.b-cdn.net/csz/news/800/2018/europeslostf.jpg" />
+                      <img src={liveschedule} />
                       <span class="bard-title">Live Schedule</span>
                     </div>
                     <div className="bard-content">
@@ -140,7 +150,7 @@ function Portfolio() {
                 <div className="col s12 l6">
                   <div className="bard">
                     <div className="bard-image">
-                      <img src="https://scx1.b-cdn.net/csz/news/800/2018/europeslostf.jpg" />
+                      <img src={friend} />
                       <span class="bard-title">Friend Finder</span>
                     </div>
                     <div className="bard-content">
@@ -158,7 +168,7 @@ function Portfolio() {
                 <div className="col s12 l6">
                   <div className="bard">
                     <div className="bard-image">
-                      <img src="https://scx1.b-cdn.net/csz/news/800/2018/europeslostf.jpg" />
+                      <img src={gifexploder} />
                       <span class="bard-title">Gif Exploder</span>
                     </div>
                     <div className="bard-content">
