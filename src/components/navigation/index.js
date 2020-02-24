@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import './style.css';
 
+import Particles from 'react-particles-js';
+
 class Navigation extends Component {
     componentDidMount() {
         const M = window.M;
@@ -15,8 +17,28 @@ class Navigation extends Component {
         return(
             <>
             <div className="col s12 l3 no-pad">
+              
+            <Particles className="particles"
+                params={{
+                  "particles": {
+                      "number": {
+                          "value": 10
+                      },
+                      "size": {
+                          "value": 3
+                      }
+                  },
+                  "interactivity": {
+                      "events": {
+                          "onhover": {
+                              "enable": true,
+                              "mode": "repulse"
+                          }
+                      }
+                  }
+              }} />
 
-                <div>
+                <div className="nav">
                     <div className="nav-wrapper">
                         <h2 className="right-align">
                         <a href="https://www.linkedin.com/in/davidmbedford/" target="_blank">david michael bedford</a>
@@ -31,7 +53,6 @@ class Navigation extends Component {
                             </ul>
                         </div> 
                     </div>
-                </div>
 
                 <ul className="sidenav" id="slide-out">
                     <li><Link to='/'>Home</Link></li>
@@ -39,6 +60,7 @@ class Navigation extends Component {
                     <li><Link to='/skills'>Skills</Link></li>
                     <li><Link to='/contact'>Contact</Link></li>
                 </ul>
+                </div>
             
             </div>
             </>

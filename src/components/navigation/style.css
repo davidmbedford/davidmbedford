@@ -23,3 +23,13 @@ h2 {
       z-index: 1020
   }
 }
+
+.particles {
+  height: 100vh;
+  position: absolute;
+  z-index: -2;
+}
+
+.nav {
+  position: relative;
+}
