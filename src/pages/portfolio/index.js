@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import Footer from '../../components/footer/index.js';
 
 import zigZag from '../../images/zigZagcrop.png';
 import swfc from '../../images/SWFC.png';
@@ -185,6 +186,11 @@ function Portfolio() {
 
               </div>
             </div>
+
+            <div className="container">    
+              <Footer />
+            </div>
+            
           </div>
         </div>
       </div>

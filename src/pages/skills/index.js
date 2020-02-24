@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import Footer from '../../components/footer/index.js';
 
 function Skills() {
   return (
@@ -49,6 +50,9 @@ function Skills() {
               </div>
             </div>
 
+          </div>
+          <div className="container">    
+            <Footer />
           </div>
         </div>
       </div>

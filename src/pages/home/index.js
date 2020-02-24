@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import Footer from '../../components/footer/index.js';
 
 function Home() {
     return(
@@ -11,7 +12,10 @@ function Home() {
                     <h3>I'm a Full-Stack Developer with a current focus on React and UI/UX design</h3>
                     <h5>But I'm familiar with the full design process! Check out my work</h5>
                     <h5>I'm also a project manager, musician, community activist, and avid learner</h5>
-                </div>        
+                </div>    
+            <div className="container">    
+            <Footer />
+            </div>
             </div>
         </div>
         </div>
