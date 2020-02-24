@@ -22,10 +22,10 @@ class Navigation extends Component {
                 params={{
                   "particles": {
                       "number": {
-                          "value": 10
+                          "value": 25
                       },
                       "size": {
-                          "value": 3
+                          "value": 4
                       }
                   },
                   "interactivity": {
