@@ -39,7 +39,7 @@ class Navigation extends Component {
 
                 <div className="nav">
                     <div className="nav-wrapper">
-                        <h2 className="right-align">
+                        <h2 className="right-align" id="titleName">
                         <a href="https://www.linkedin.com/in/davidmbedford/" target="_blank">david michael bedford</a>
                         </h2>
                         <a data-target="slide-out" className="sidenav-trigger hide-on-med-and-up"><i className="material-icons">menu</i></a>

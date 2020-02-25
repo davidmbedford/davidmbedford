@@ -1,9 +1,23 @@
-#color1 {
+.color1 {
   color: #9a869c;
 }
 
-#color2 {
-  color: #8076a3;
+.color2 {
+  color: #90a5ce;
+}
+
+.color3 {
+  color: #95df95;
+}
+
+#hi,
+#workhere {
+  transition: color 1s ease;
+}
+
+#hi:hover,
+#workhere:hover {
+  color: white;
 }
 
 /* Grassy Green: #9bc400

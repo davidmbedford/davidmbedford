@@ -1,12 +1,20 @@
 h2 {
-    color: rgb(144, 165, 206);
+    color: #90a5ce;
     font-family: 'Ultra', serif;
     font-size: 3vw;
     padding-right: 5px;
     padding-top: 20vh;
   }
 
-  .nav-links {
+#titleName {
+    transition: color 1s ease;
+  }
+  
+#titleName:hover {
+    color: white;
+  }
+
+.nav-links {
     font-size: 1vw;
     padding-bottom: 1vh;
     padding-right: 5px;
