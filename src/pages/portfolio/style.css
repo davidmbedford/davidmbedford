@@ -34,7 +34,6 @@ p {
 }
 
 .bard .bard-image .bard-title {
-  color: #fff;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -42,6 +41,16 @@ p {
   padding: 24px;
   font-family: 'Ultra', serif;
   font-size: 1.2rem !important;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .bard .bard-content {
