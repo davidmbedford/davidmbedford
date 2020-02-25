@@ -17,7 +17,7 @@ function Skills() {
 
             <div className="row">
               <div className="col s3 skillicon">
-                <i className="center fab fa-react fa-3x skill-icon no-pad"></i>
+                <i className="react-logo center fab fa-react fa-3x skill-icon no-pad"></i>
                 <h6 className="center skilllabel">React.JS</h6>
               </div>
               <div className="col s3 skillicon">
