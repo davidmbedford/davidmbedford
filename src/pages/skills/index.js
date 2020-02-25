@@ -11,7 +11,7 @@ function Skills() {
 
             <div class="row">
               <div class="col s12">
-                <h3 class="center">Skills</h3>
+                <h3 class="center color1">Skills</h3>
               </div>
             </div>
 

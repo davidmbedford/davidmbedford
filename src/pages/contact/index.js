@@ -11,7 +11,7 @@ function Contact() {
           <div class="container backBox left-align">
             <div class="row">
               <div class="col s12">
-                <h3 class="center">Contact</h3>
+                <h3 class="center color1">Contact</h3>
                 <h5>Email: <span class="contact-info">david.m.bedford1@gmail.com</span></h5>
                 <h5>Phone: <span class="contact-info">848.391.9915</span></h5>
                 <h5>Github: <a href="https://github.com/davidmbedford/">davidmbedford</a></h5>

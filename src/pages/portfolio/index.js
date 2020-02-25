@@ -23,7 +23,7 @@ function Portfolio() {
 
               <div className="row">
                 <div className="col s12">
-                  <h3 className="center">Portfolio</h3>
+                  <h3 className="center color1">Portfolio</h3>
                 </div>
               </div>
 

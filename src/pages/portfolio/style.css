@@ -76,7 +76,7 @@ p {
   border-top: 1px solid rgba(160, 160, 160, 0.2);
   position: relative;
   padding: 16px 24px;
-  color: #40ffcf;
+  color: #90a5ce;
   font-weight: bold;
   /* border-radius: 0 0 2px 2px; */
 }
@@ -89,7 +89,7 @@ p {
 }
 
 .bard .bard-action a:hover {
-  color: red;
+  color: #a0d4a5;
 }
 
 .bard .bard-action:last-child {
