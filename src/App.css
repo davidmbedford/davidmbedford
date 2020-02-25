@@ -24,12 +24,15 @@ a {
   color: inherit; 
 } 
 
-h3 {
+h3{
   font-family: 'Ultra', serif;
+
 }
 
 h5 {
-  font-family: 'Francios One', sans-serif;
+  font-family: 'Teko', serif;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 body {

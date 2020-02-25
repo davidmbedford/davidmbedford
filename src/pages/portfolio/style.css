@@ -1,7 +1,8 @@
 p {
   color: black;
   text-align: left;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  font-family: 'Teko', serif;
 }
 
 .bard {
@@ -66,14 +67,14 @@ p {
   border-top: 1px solid rgba(160, 160, 160, 0.2);
   position: relative;
   padding: 16px 24px;
-  color: #ffab40;
+  color: #40ffcf;
   font-weight: bold;
   /* border-radius: 0 0 2px 2px; */
 }
 
 .bard .bard-action a {
-  font-size: 1rem;
-  margin-right: 24px;
+  font-size: 1.3rem;
+  margin: 0px 10px 0px 10px;
   -webkit-transition: color 1s ease;
   transition: color 1s ease;
 }
