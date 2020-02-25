@@ -1,5 +1,13 @@
 .backBox {
   padding: 2vmax;
-  background-color: lightgray;
+  /* background-color: lightgray; */
   border-radius: 2px;
+}
+
+.skillicon {
+  color: #fcf6e5;
+}
+
+.skilllabel {
+  color: #90a5ce;
 }
