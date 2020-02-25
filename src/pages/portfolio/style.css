@@ -76,12 +76,12 @@ p {
   border-top: 1px solid rgba(160, 160, 160, 0.2);
   position: relative;
   padding: 16px 24px;
-  color: #90a5ce;
-  font-weight: bold;
   /* border-radius: 0 0 2px 2px; */
 }
 
 .bard .bard-action a {
+  color: #90a5ce;
+  font-weight: bold;
   font-size: 1.3rem;
   margin: 0px 10px 0px 10px;
   -webkit-transition: color 1s ease;

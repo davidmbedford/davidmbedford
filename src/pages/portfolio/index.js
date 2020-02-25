@@ -42,8 +42,8 @@ function Portfolio() {
                       <p><span className="bold">Main Tech: </span> React, ES6, node.js, Sql, Express, APIs, HTML/CSS (Materialize)</p>
                     </div>
                     <div className="bard-action">
-                      <a href="https://github.com/asmith7531/team1project3" target="_blank">Code</a>
-                      <a href="https://radiant-wildwood-53087.herokuapp.com" target="_blank">Site</a>
+                      <a className="btn-flat" href="https://github.com/asmith7531/team1project3" target="_blank">Code</a>
+                      <a className="btn-flat" href="https://radiant-wildwood-53087.herokuapp.com" target="_blank">Site</a>
                     </div>
                   </div>
                 </div>
@@ -60,8 +60,8 @@ function Portfolio() {
                       <p><span className="bold">Main Tech:</span> React, ES6, HTML/CSS (BootStrap)</p>
                     </div>
                     <div className="bard-action">
-                      <a href="https://github.com/davidmbedford/clickergame" target="_blank">Code</a>
-                      <a href="https://clickergame-rubc.herokuapp.com/" target="_blank">Site</a>
+                      <a className="btn-flat" href="https://github.com/davidmbedford/clickergame" target="_blank">Code</a>
+                      <a className="btn-flat" href="https://clickergame-rubc.herokuapp.com/" target="_blank">Site</a>
                     </div>
                   </div>
                 </div>
@@ -81,8 +81,8 @@ function Portfolio() {
                       <p><span className="bold">Main Tech:</span> JavaScript, jQuery, various APIs, Firebase, HTML/CSS (Bootstrap)</p>
                     </div>
                     <div className="bard-action">
-                      <a href="https://github.com/Parker-Tech/project_one_boiler" target="_blank">Code</a>
-                      <a href="https://show-spotter.herokuapp.com/" target="_blank">Site</a>
+                      <a className="btn-flat" href="https://github.com/Parker-Tech/project_one_boiler" target="_blank">Code</a>
+                      <a className="btn-flat" href="https://show-spotter.herokuapp.com/" target="_blank">Site</a>
                     </div>
                   </div>
                 </div>
@@ -99,8 +99,8 @@ function Portfolio() {
                       <p><span className="bold">Main Tech:</span> JavaScript, node.js, jQuery, Sql, Handlebars, Express, various APIs, HTML/CSS (Bootstrap)</p>
                     </div>
                     <div className="bard-action">
-                      <a href="https://github.com/rachaelbelle/blitzkreig" target="_blank">Code</a>
-                      <a href="https://blitzkreigg.herokuapp.com/" target="_blank">Site</a>
+                      <a className="btn-flat" href="https://github.com/rachaelbelle/blitzkreig" target="_blank">Code</a>
+                      <a className="btn-flat" href="https://blitzkreigg.herokuapp.com/" target="_blank">Site</a>
                     </div>
                   </div>
                 </div>
@@ -121,8 +121,8 @@ function Portfolio() {
                       <p><span className="bold">Main Tech:</span> node.js, jQuery, Inquirer, bash</p>
                     </div>
                     <div className="bard-action">
-                      <a href="https://github.com/davidmbedford/bamazon-unit12" target="_blank">Code</a>
-                      <a href="#"><span className="card-link">Clone it!</span></a>
+                      <a className="btn-flat" href="https://github.com/davidmbedford/bamazon-unit12" target="_blank">Code</a>
+                      <a className="btn-flat" href="#"><span className="card-link">Clone it!</span></a>
                     </div>
                   </div>
                 </div>
@@ -139,8 +139,8 @@ function Portfolio() {
                       <p><span className="bold">Main Tech:</span> Firebase, JS, jQuery, HTML/CSS (Bootstrap)</p>
                     </div>
                     <div className="bard-action">
-                      <a href="https://github.com/davidmbedford/LiveSchedule" target="_blank">Code</a>
-                      <a href="https://davidmbedford.github.io/LiveSchedule/" target="_blank">Site</a>
+                      <a className="btn-flat" href="https://github.com/davidmbedford/LiveSchedule" target="_blank">Code</a>
+                      <a className="btn-flat" href="https://davidmbedford.github.io/LiveSchedule/" target="_blank">Site</a>
                     </div>
                   </div>
                 </div>
@@ -160,8 +160,8 @@ function Portfolio() {
                       <p><span className="bold">Main Tech:</span> JS, jQuery, MySql, Handlebars, HTML/CSS (Materialize)</p>
                     </div>
                     <div className="bard-action">
-                      <a href="https://github.com/davidmbedford/FriendFinder" target="_blank">Code</a>
-                      <a href="https://friend-finderxrubc.herokuapp.com/home" target="_blank">Site</a>
+                      <a className="btn-flat" href="https://github.com/davidmbedford/FriendFinder" target="_blank">Code</a>
+                      <a className="btn-flat" href="https://friend-finderxrubc.herokuapp.com/home" target="_blank">Site</a>
                     </div>
                   </div>
                 </div>
@@ -178,8 +178,8 @@ function Portfolio() {
                       <p><span className="bold">Main Tech:</span> JavaScript, jQuery, HTML, CSS</p>
                     </div>
                     <div className="bard-action">
-                      <a href="https://github.com/davidmbedford/Unit-6-GifTastic" target="_blank">Code</a>
-                      <a href="https://davidmbedford.github.io/Unit-6-GifTastic/" target="_blank">Site</a>
+                      <a className="btn-flat" href="https://github.com/davidmbedford/Unit-6-GifTastic" target="_blank">Code</a>
+                      <a className="btn-flat" href="https://davidmbedford.github.io/Unit-6-GifTastic/" target="_blank">Site</a>
                     </div>
                   </div>
                 </div>

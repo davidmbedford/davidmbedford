@@ -15,15 +15,24 @@ h2 {
   }
 
 .nav-links {
-    font-size: 1vw;
+    font-size: 2vw;
     padding-bottom: 1vh;
     padding-right: 5px;
-    font-weight: 'bold';
     font-family: 'Francois One', sans-serif;
     color: #9a869c;
   }
 
-  /* from bs */
+.sidenav {
+  opacity: 0.8;
+  width: 150px;
+  font-family: 'Francois One', sans-serif;
+}
+
+.menuicon {
+  padding: 10px;
+}
+
+  /* from bs
 @supports ((position:-webkit-sticky) or (position:sticky)) {
   .sticky-top {
       position: -webkit-sticky;
@@ -31,7 +40,7 @@ h2 {
       top: 0;
       z-index: 1020
   }
-}
+} */
 
 .particles {
   height: 100vh;
@@ -41,4 +50,10 @@ h2 {
 
 .nav {
   position: relative;
+}
+
+@media only screen and (max-width: 500px) {
+  #titleName {
+    font-size: 5vw
+  }
 }
