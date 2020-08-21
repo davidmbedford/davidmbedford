@@ -109,22 +109,22 @@ function Portfolio() {
 
               </div>
 
-
               <div className="row">
+                
                 <div className="col s12 l6">
                   <div className="bard">
                     <div className="bard-image">
-                      <img src={bamazon} />
-                      <span class="bard-title">Bamazon</span>
+                      <img src={blitz} />
+                      <span class="bard-title">Blitzkreig</span>
                     </div>
                     <div className="bard-content">
-                      <p>A digital storefront designed for your command line interface! There is a client, and manager-facing interface for this app. Customers may view inventory and purchase items; managers can review, stock and add new items.</p>
+                      <p>An all-in-one productivity app: Blitz enables you to start your day with a bang, Choose between various widgets, such as traffic reports, weather, and the news, to maximize your morning!</p>
                       <br />
-                      <p><span className="bold">Main Tech:</span> node.js, jQuery, Inquirer, bash</p>
+                      <p><span className="bold">Main Tech:</span> JavaScript, node.js, jQuery, MySql, Handlebars, Express, APIs, Bootstrap, HTML, CSS</p>
                     </div>
                     <div className="bard-action">
-                      <a className="btn-flat" href="https://github.com/davidmbedford/bamazon-unit12" target="_blank">Code</a>
-                      <a className="btn-flat" href="#"><span className="card-link">Clone it!</span></a>
+                      <a className="btn-flat" href="https://github.com/rachaelbelle/blitzkreig" target="_blank">Code</a>
+                      <a className="btn-flat" href="https://blitzkreigg.herokuapp.com/" target="_blank">Site</a>
                     </div>
                   </div>
                 </div>
@@ -138,7 +138,7 @@ function Portfolio() {
                     <div className="bard-content">
                       <p>This utilizes Firebase to create a live-updating schedule application. This current version is geared towards Train conductors, but the application can be refactored for anyone in need of coordinating a steady routine.</p>
                       <br />
-                      <p><span className="bold">Main Tech:</span> JavaScript, Firebase, jQuery, Bootstrap</p>
+                      <p><span className="bold">Main Tech:</span> JavaScript, Firebase, jQuery, Moment.js, Bootstrap, HTML, CSS</p>
                     </div>
                     <div className="bard-action">
                       <a className="btn-flat" href="https://github.com/davidmbedford/LiveSchedule" target="_blank">Code</a>
@@ -153,13 +153,53 @@ function Portfolio() {
                 <div className="col s12 l6">
                   <div className="bard">
                     <div className="bard-image">
+                      <img src={bamazon} />
+                      <span class="bard-title">Bamazon</span>
+                    </div>
+                    <div className="bard-content">
+                      <p>A digital storefront designed for your command line interface! There is a client, and manager-facing interface for this app. 
+                        Customers may view inventory and purchase items; managers can review, stock and add new items.</p>
+                      <br />
+                      <p><span className="bold">Main Tech:</span> node.js, jQuery, Inquirer, bash</p>
+                    </div>
+                    <div className="bard-action">
+                      <a className="btn-flat" href="https://github.com/davidmbedford/bamazon-unit12" target="_blank">Code</a>
+                      <a className="btn-flat" href="#"><span className="card-link">Clone it!</span></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col s12 l6">
+                  <div className="bard">
+                    <div className="bard-image">
+                      <img src={liri} />
+                      <span class="bard-title">Liri</span>
+                    </div>
+                    <div className="bard-content">
+                      <p>LIRI is a Node.js based app that users can run in a command line interface to search for concerts, movies, and music. 
+                        Liri stands for: Language Interpretation and Recognition Interface.</p>
+                      <br />
+                      <p><span className="bold">Main Tech:</span> node.js, jQuery, Inquirer, Axios, Moment.js, APIs, bash</p>
+                    </div>
+                    <div className="bard-action">
+                      <a className="btn-flat" href="https://github.com/davidmbedford/liri-node-app" target="_blank">Code</a>
+                      <a className="btn-flat" href="#"><span className="card-link">Clone it!</span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="row">
+                <div className="col s12 l6">
+                  <div className="bard">
+                    <div className="bard-image">
                       <img src={friend} />
                       <span class="bard-title">Friend Finder</span>
                     </div>
                     <div className="bard-content">
                       <p>This app allows users to take a survey and find like-minded people in their area to hang out with! This app is meant to demonstrate MySql API-routing and Handlebars via node.</p>
                       <br />
-                      <p><span className="bold">Main Tech:</span> JavaScript, jQuery, MySql, Handlebars, Materialize</p>
+                      <p><span className="bold">Main Tech:</span> JavaScript, jQuery, MySql, Handlebars, Materialize, HTML, CSS</p>
                     </div>
                     <div className="bard-action">
                       <a className="btn-flat" href="https://github.com/davidmbedford/FriendFinder" target="_blank">Code</a>
@@ -177,7 +217,7 @@ function Portfolio() {
                     <div className="bard-content">
                       <p>A jQuery-based Gif engine that utilizes the Giphy API. Users can add buttons to the header and use them to search for gifs of any sort based on what's trending.</p>
                       <br />
-                      <p><span className="bold">Main Tech:</span> JavaScript, jQuery, Giphy API, HTML5, CSS3</p>
+                      <p><span className="bold">Main Tech:</span> JavaScript, jQuery, Giphy API, HTML, CSS</p>
                     </div>
                     <div className="bard-action">
                       <a className="btn-flat" href="https://github.com/davidmbedford/Unit-6-GifTastic" target="_blank">Code</a>
