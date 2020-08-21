@@ -1,12 +1,13 @@
 import React from 'react';
 import './style.css';
 import Footer from '../../components/footer/index.js';
-
-import zigZag from '../../images/zigZagcrop.png';
+import tc from '../../images/tc.png'
+import zigZag from '../../images/zigzag.png';
 import swfc from '../../images/SWFC.png';
 import showspot from '../../images/S.png';
 import blitz from '../../images/blitz.png';
 import bamazon from '../../images/bamazon.png';
+import liri from '../../images/liri.png'
 import liveschedule from '../../images/liveschedule.png';
 import friend from '../../images/friendfinder.png';
 import gifexploder from '../../images/gifexploder.png';
@@ -31,6 +32,25 @@ function Portfolio() {
                 <div className="col s12 l6">
                   <div className="bard">
                     <div className="bard-image">
+                      <img src={tc} />
+                      <span class="bard-title">TimeCrunch</span>
+                    </div>
+                    <div className="bard-content">
+                      <p>TimeCrunch is a team-focused to-do app with realtime database connectivity. This version displays a pre-made team which you can alter 
+                        through the side menu. The user log-in system is under construction.</p>
+                      <br />
+                      <p><span className="bold">Main Tech:</span> Vue, Vuetify, ES6, HTML, CSS</p>
+                    </div>
+                    <div className="bard-action">
+                      <a className="btn-flat" href="https://github.com/davidmbedford/TimeCrunch" target="_blank">Code</a>
+                      <a className="btn-flat" href="https://time-crunch.herokuapp.com/" target="_blank">Site</a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="col s12 l6">
+                  <div className="bard">
+                    <div className="bard-image">
                       <img src={zigZag} />
                       <span class="bard-title">ZigZag</span>
                     </div>
@@ -48,7 +68,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col s12 l6">
+                {/* <div className="col s12 l6">
                   <div className="bard">
                     <div className="bard-image">
                       <img src={swfc} />
@@ -64,7 +84,7 @@ function Portfolio() {
                       <a className="btn-flat" href="https://clickergame-rubc.herokuapp.com/" target="_blank">Site</a>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
               </div>
 
