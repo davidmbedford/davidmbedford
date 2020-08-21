@@ -22,7 +22,7 @@ function Home() {
                       on the back-end.
                       </h5>
                     <h5>I have a deep passion for learning and have my hands in a lot of other tech too!
-                      Check out my <span className="color2"><a id="workhere" href='/portfolio'>work here</a></span>
+                      Check out my work <span className="color2"><a id="workhere" href='/portfolio'>here</a></span>
                       </h5>
                     <h5>Outside of programming, I'm a musician, audio engineer, and community activist.</h5>
                 </div>    
