@@ -14,7 +14,7 @@ function Skills() {
                 <h3 className="center color1">Skills</h3>
               </div>
             </div>
-{/* <i class="fab fa-vuejs"></i> */}
+
             <div className="row">
               <div className="col s4 skillicon">
                 <i className="react-logo center fab fa-react fa-3x skill-icon no-pad"></i>
@@ -28,9 +28,9 @@ function Skills() {
                 <i className="center fas fa-dollar-sign fa-3x skill-icon"></i>
                 <h6 className="center skilllabel">jQuery</h6>
               </div>
-              </div>
+            </div>
 
-              <div className="row">
+            <div className="row">
               <div className="col s4 skillicon">
                 <i className="center fab fa-js fa-3x skill-icon no-pad"></i>
                 <h6 className="center skilllabel">JavaScript</h6>
@@ -43,9 +43,9 @@ function Skills() {
                 <i className="center fab fa-css3 fa-3x skill-icon no-pad"></i>
                 <h6 className="center skilllabel">CSS</h6>
               </div>
-              </div>
+            </div>
 
-              <div className="row">
+            <div className="row">
               <div className="col s4 skillicon">
                 <i className="center fab fa-node fa-js fa-3x skill-icon no-pad"></i>
                 <h6 className="center skilllabel">node.js</h6>
