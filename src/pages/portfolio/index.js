@@ -164,7 +164,7 @@ function Portfolio() {
                     </div>
                     <div className="bard-action">
                       <a className="btn-flat" href="https://github.com/davidmbedford/bamazon-unit12" target="_blank">Code</a>
-                      <a className="btn-flat" href="#"><span className="card-link">Clone it!</span></a>
+                      <a className="btn-flat" href="https://github.com/davidmbedford/bamazon-unit12"><span className="card-link">Clone it!</span></a>
                     </div>
                   </div>
                 </div>
@@ -183,7 +183,7 @@ function Portfolio() {
                     </div>
                     <div className="bard-action">
                       <a className="btn-flat" href="https://github.com/davidmbedford/liri-node-app" target="_blank">Code</a>
-                      <a className="btn-flat" href="#"><span className="card-link">Clone it!</span></a>
+                      <a className="btn-flat" href="https://github.com/davidmbedford/liri-node-app"><span className="card-link">Clone it!</span></a>
                     </div>
                   </div>
                 </div>
