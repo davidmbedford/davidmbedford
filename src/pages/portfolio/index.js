@@ -39,7 +39,7 @@ function Portfolio() {
                       <p>TimeCrunch is a team-focused to-do app with realtime database connectivity. This version displays a pre-made team which you can alter 
                         through the side menu. The user log-in system is under construction.</p>
                       <br />
-                      <p><span className="bold">Main Tech:</span> Vue, Vuetify, ES6, HTML, CSS</p>
+                      <p><span className="bold">Main Tech:</span> Vue, Vuetify, ES6, Firebase, HTML, CSS</p>
                     </div>
                     <div className="bard-action">
                       <a className="btn-flat" href="https://github.com/davidmbedford/TimeCrunch" target="_blank">Code</a>
@@ -59,7 +59,7 @@ function Portfolio() {
                         determine the best academic course for you! We also have a vast database
                         of related college programs.</p>
                       <br />
-                      <p><span className="bold">Main Tech: </span> React, ES6, node.js, MySql, Express, APIs, Materialize</p>
+                      <p><span className="bold">Main Tech: </span> React, ES6, node.js, MySql, Express, APIs, Materialize, HTML, CSS</p>
                     </div>
                     <div className="bard-action">
                       <a className="btn-flat" href="https://github.com/asmith7531/team1project3" target="_blank">Code</a>
@@ -67,28 +67,28 @@ function Portfolio() {
                     </div>
                   </div>
                 </div>
+              </div>
 
-                {/* <div className="col s12 l6">
+              <div className="row">
+                <div className="col s12 l6">
                   <div className="bard">
                     <div className="bard-image">
                       <img src={swfc} />
                       <span class="bard-title">Star Wars: Force Clicker</span>
                     </div>
                     <div className="bard-content">
-                      <p>Test you connection to the force and click on all of the characters without repeating! This app was built to demonstrate dynamic changes with React</p>
+                      <p>Test you connection to the force with this memory game built in React! Click on each character without repeating 
+                        in order to win. This app was built to demonstrate prop-drilling and dynamic UI changes with React</p>
                       <br />
-                      <p><span className="bold">Main Tech:</span> React, ES6, Bootstrap </p>
+                      <p><span className="bold">Main Tech:</span> React, ES6, Bootstrap, HTML, CSS</p>
                     </div>
                     <div className="bard-action">
                       <a className="btn-flat" href="https://github.com/davidmbedford/clickergame" target="_blank">Code</a>
                       <a className="btn-flat" href="https://clickergame-rubc.herokuapp.com/" target="_blank">Site</a>
                     </div>
                   </div>
-                </div> */}
+                </div>
 
-              </div>
-
-              <div className="row">
                 <div className="col s12 l6">
                   <div className="bard">
                     <div className="bard-image">
@@ -99,29 +99,10 @@ function Portfolio() {
                       <p>Enables users to find fun events near them! You can search for concerts, fests and more in your area. Find tickets, and directions via our app, and create a profile to save information.</p>
                       <br />
                       <p><span className="bold">Main Tech:</span> JavaScript, jQuery, Firebase, APIs, Bootstrap</p>
-                      <br />
                     </div>
                     <div className="bard-action">
                       <a className="btn-flat" href="https://github.com/Parker-Tech/project_one_boiler" target="_blank">Code</a>
                       <a className="btn-flat" href="https://show-spotter.herokuapp.com/" target="_blank">Site</a>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col s12 l6">
-                  <div className="bard">
-                    <div className="bard-image">
-                      <img src={blitz} />
-                      <span class="bard-title">Blitzkreig</span>
-                    </div>
-                    <div className="bard-content">
-                      <p>An all-in-one productivity app: Blitz enables you to start your day with a bang, Choose between various widgets, such as traffic reports, weather, and the news, to maximize your morning!</p>
-                      <br />
-                      <p><span className="bold">Main Tech:</span> JavaScript, node.js, jQuery, MySql, Handlebars, Express, APIs, Bootstrap</p>
-                    </div>
-                    <div className="bard-action">
-                      <a className="btn-flat" href="https://github.com/rachaelbelle/blitzkreig" target="_blank">Code</a>
-                      <a className="btn-flat" href="https://blitzkreigg.herokuapp.com/" target="_blank">Site</a>
                     </div>
                   </div>
                 </div>
