@@ -1,6 +1,10 @@
 import React from 'react';
 import './style.css';
 import Footer from '../../components/footer/index.js';
+import Americanstandard from '../../images/americanstandard.png'
+import Classiccarvalue from '../../images/classiccarvalue.png'
+import Cmyskills from '../../images/cmyskills.png'
+import Thompsoncreek from '../../images/thompsoncreek.png'
 
 function Clients() {
     return (
@@ -14,7 +18,7 @@ function Clients() {
                   <div className="row">
                     <div className="col s12">
                       <h3 className="center color1">Clients</h3>
-                      <p>Below are some examples of my agency work. </p>
+                      <p id="client-subtitle">Below are some examples of my agency work with Great Big Digital.</p>
                     </div>
                   </div>
     
@@ -22,17 +26,20 @@ function Clients() {
                     <div className="col s12 l6">
                       <div className="bard">
                         <div className="bard-image">
-                          {/* <img src={tc} /> */}
+                          <img src={Classiccarvalue} />
                           <span class="bard-title">Classic Car Value</span>
                         </div>
                         <div className="bard-content">
-                          <p>TimeCrunch is a team-focused to-do app...</p>
+                          <p>
+                            Built with MEVN stack, this tool provides price estimates for vintage vehicles based on multiple data sources. These data sources feature divergent syntax and schema. And so in addition to 
+                            building and deploying the UI, API, and database, I also devised a mapping system that translates all data sources into a unified syntax, so that the user can access all data 
+                            in a few simple steps.
+                          </p>
                           <br />
-                          <p><span className="bold">Main Tech:</span> Vue, MySQL, node, Vuetify, ES6, HTML, CSS</p>
+                          <p><span className="bold">Main Tech:</span> Vue, SQL, node, Express, ES6, HTML5, CSS3, AWS</p>
                         </div>
                         <div className="bard-action">
-                          <a className="btn-flat" href="https://github.com/davidmbedford/TimeCrunch" target="_blank">Code</a>
-                          <a className="btn-flat" href="https://time-crunch.herokuapp.com/" target="_blank">Site</a>
+                          <a className="btn-flat" href="https://classiccarvalue.com/" target="_blank">Example</a>
                         </div>
                       </div>
                     </div>
@@ -40,17 +47,21 @@ function Clients() {
                     <div className="col s12 l6">
                       <div className="bard">
                         <div className="bard-image">
-                          {/* <img src={zigZag} /> */}
+                          <img src={Thompsoncreek} />
                           <span class="bard-title">Thompson Creek</span>
                         </div>
                         <div className="bard-content">
-                          <p>ZigZag contains a personality and...</p>
+                          <p>
+                            For this Wordpress client, I built multiple interactive components using PHP, ES6, HTML5, and CSS3. These components can be accessed in the Wordpress
+                            Admin dashboard to create custom product and info displays. Because they are built for re-usability, they can feature 1-99+ items while maintaining 
+                            mobile-responsiveness and cross-browser compatibility.  
+                          </p>
                           <br />
-                          <p><span className="bold">Main Tech: </span> WordPress, PHP, ES6, node.js</p>
+                          <p><span className="bold">Main Tech: </span> WordPress, PHP, ES6, HTML5, CSS3</p>
                         </div>
                         <div className="bard-action">
-                          <a className="btn-flat" href="https://github.com/asmith7531/team1project3" target="_blank">Code</a>
-                          <a className="btn-flat" href="https://radiant-wildwood-53087.herokuapp.com" target="_blank">Site</a>
+                          <a className="btn-flat" href="https://www.thompsoncreek.com/" target="_blank">Example 1</a>
+                          <a className="btn-flat" href="https://www.thompsoncreek.com/windows/" target="_blank">Example 2</a>
                         </div>
                       </div>
                     </div>
@@ -61,18 +72,21 @@ function Clients() {
                     <div className="col s12 l6">
                       <div className="bard">
                         <div className="bard-image">
-                          {/* <img src={showspot} /> */}
+                          <img src={Americanstandard} />
                           <span class="bard-title">American Standard</span>
                         </div>
                         <div className="bard-content">
-                          <p>Enables users to find fun events near them! You can search for concerts, fests and more in your area. Find tickets, and directions via our app, and create a profile to save information.</p>
+                          <p>
+                            I built multiple templates and pages for this client using PHP, ES6, HTML5, and SASS. No plugins were used for UI/UX purposes. All interactive components (i.e. sliders) were 
+                            coded from scratch.  
+                          </p>
                           <br />
-                          <p><span className="bold">Main Tech:</span> Wordpress, PHP, JavaScript, Bootstrap, HTML5, SASS</p>
+                          <p><span className="bold">Main Tech:</span> Wordpress, PHP, ES6, Bootstrap, HTML5, SASS</p>
                           <br />
                         </div>
                         <div className="bard-action">
-                          <a className="btn-flat" href="https://github.com/Parker-Tech/project_one_boiler" target="_blank">Code</a>
-                          <a className="btn-flat" href="https://show-spotter.herokuapp.com/" target="_blank">Site</a>
+                          <a className="btn-flat" href="https://americanstandardshowers.com/inspiration/" target="_blank">Example 1</a>
+                          <a className="btn-flat" href="https://americanstandardshowers.com/envisionmybath/" target="_blank">Example 2</a>
                         </div>
                       </div>
                     </div>
@@ -80,17 +94,20 @@ function Clients() {
                     <div className="col s12 l6">
                       <div className="bard">
                         <div className="bard-image">
-                          {/* <img src={blitz} /> */}
+                          <img src={Cmyskills} />
                           <span class="bard-title">CmySkills</span>
                         </div>
                         <div className="bard-content">
-                          <p>An all-in-one productivity app: Blitz enables you to start your day with a bang, Choose between various widgets, such as traffic reports, weather, and the news, to maximize your morning!</p>
+                          <p>
+                            I built multiple templates and pages for this site primarily using PHP and ES6. I also built reusable components, including the navbar and footer. 
+                            All interactive components were coded from scratch. 
+                          </p>
                           <br />
-                          <p><span className="bold">Main Tech:</span> JavaScript, node.js, jQuery, MySql, Handlebars, Express, APIs, Bootstrap</p>
+                          <p><span className="bold">Main Tech:</span> Wordpress, PHP, ES6, Bootstrap, HTML5, SASS</p>
                         </div>
                         <div className="bard-action">
-                          <a className="btn-flat" href="https://github.com/rachaelbelle/blitzkreig" target="_blank">Code</a>
-                          <a className="btn-flat" href="https://blitzkreigg.herokuapp.com/" target="_blank">Site</a>
+                          <a className="btn-flat" href="https://cmyskills.com/" target="_blank">Example 1</a>
+                          <a className="btn-flat" href="https://cmyskills.com/contact/" target="_blank">Example 2</a>
                         </div>
                       </div>
                     </div>
