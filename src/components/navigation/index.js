@@ -47,6 +47,7 @@ class Navigation extends Component {
                   <div className="sticky-top">
                     <ul class="right-align hide-on-med-and-down">
                       <li><Link className="waves-effect waves-light btn-flat nav-links" to='/'>Home</Link></li>
+                      <li><Link className="waves-effect waves-light btn-flat nav-links" to='/clients'>Clients</Link></li>
                       <li><Link className="waves-effect waves-light btn-flat nav-links" to='/portfolio'>Portfolio</Link></li>
                       <li><Link className="waves-effect waves-light btn-flat nav-links" to='/skills'>Skills</Link></li>
                       <li><Link className="waves-effect waves-light btn-flat nav-links" to='/contact'>Contact</Link></li>

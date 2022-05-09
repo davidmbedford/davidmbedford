@@ -4,6 +4,7 @@ import { Row } from 'reactstrap';
 import './App.css';
 
 import Home from './pages/home/index.js';
+import Clients from './pages/clients/index.js';
 import Portfolio from './pages/portfolio/index.js';
 import Skills from './pages/skills/index.js';
 import Contact from './pages/contact/index.js';
@@ -17,6 +18,7 @@ function App() {
     <Navigation /> 
       <Switch>
         <Route exact path='/' component={Home}/>
+        <Route exact path='/clients' component={Clients}/>
         <Route exact path='/portfolio' component={Portfolio}/>
         <Route exact path='/skills' component={Skills}/>
         <Route exact path='/contact' component={Contact}/>
